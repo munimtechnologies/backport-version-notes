@@ -1,0 +1,234 @@
+{
+ "P1_django_future_beyond_known": 1,
+ "P1_held": false,
+ "P2_held": true,
+ "P2_numpy_future": 1,
+ "P3": "graded by hand (GRADING.md)",
+ "P4_arrived_after_x0": 0,
+ "P4_held": false,
+ "P4_pool": 2,
+ "P4_share": 0.0,
+ "cpython_control": {
+  "future": [
+   {
+    "args": "3.15",
+    "directive": "soft-deprecated",
+    "line": 174,
+    "path": "Doc/c-api/file.rst"
+   },
+   {
+    "args": "3.15",
+    "directive": "soft-deprecated",
+    "line": 183,
+    "path": "Doc/c-api/file.rst"
+   },
+   {
+    "args": "3.15 3.19",
+    "directive": "deprecated-removed",
+    "line": 150,
+    "path": "Doc/c-api/hash.rst"
+   },
+   {
+    "args": "3.15",
+    "directive": "versionadded",
+    "line": 609,
+    "path": "Doc/c-api/threads.rst"
+   },
+   {
+    "args": "3.15",
+    "directive": "versionadded",
+    "line": 619,
+    "path": "Doc/c-api/threads.rst"
+   },
+   {
+    "args": "3.15",
+    "directive": "versionchanged",
+    "line": 1074,
+    "path": "Doc/library/datetime.rst"
+   },
+   {
+    "args": "3.15",
+    "directive": "versionchanged",
+    "line": 986,
+    "path": "Doc/using/configure.rst"
+   },
+   {
+    "args": "26.2",
+    "directive": "versionadded",
+    "line": 875,
+    "path": "Doc/using/windows.rst"
+   },
+   {
+    "args": "26.4",
+    "directive": "versionadded",
+    "line": 967,
+    "path": "Doc/using/windows.rst"
+   }
+  ],
+  "notes": 5512
+ },
+ "finished_at": "2026-11-02T13:03:10Z",
+ "gate": {
+  "cpython_control_utcfromtimestamp": true,
+  "django_known_cache_note": true,
+  "django_newest_head_notes_ge_100": true,
+  "django_tags_ge_90pct": true,
+  "numpy_newest_head_notes_ge_100": true,
+  "numpy_tags_ge_90pct": true
+ },
+ "gate_held": true,
+ "log": [
+  "cloned https://github.com/django/django.git",
+  "django stable/5.2.x: 212 notes, 1 future, 19 tags",
+  "django stable/6.0.x: 198 notes, 0 future, 10 tags",
+  "django stable/6.1.x: 209 notes, 1 future, 3 tags",
+  "cloned https://github.com/numpy/numpy.git",
+  "numpy maintenance/1.24.x: 604 notes, 0 future, 5 tags",
+  "numpy maintenance/1.25.x: 607 notes, 0 future, 3 tags",
+  "numpy maintenance/1.26.x: 611 notes, 0 future, 6 tags",
+  "numpy maintenance/2.0.x: 724 notes, 1 future, 3 tags",
+  "numpy maintenance/2.1.x: 732 notes, 0 future, 4 tags",
+  "numpy maintenance/2.2.x: 304 notes, 0 future, 7 tags",
+  "numpy maintenance/2.3.x: 312 notes, 0 future, 6 tags",
+  "numpy maintenance/2.4.x: 304 notes, 0 future, 7 tags",
+  "numpy maintenance/2.5.x: 313 notes, 0 future, 5 tags",
+  "downloaded cpython v3.14.10"
+ ],
+ "projects": {
+  "django": {
+   "future_count": 2,
+   "heads": [
+    {
+     "branch": "stable/5.2.x",
+     "future": 1,
+     "notes": 212,
+     "sha": "cbbcf85f89e66c2807c1c634a9ee8deaa5ca4c13",
+     "tags": 19,
+     "unparsed": 2,
+     "version": "5.2",
+     "x0_tag": "5.2"
+    },
+    {
+     "branch": "stable/6.0.x",
+     "future": 0,
+     "notes": 198,
+     "sha": "623c3706bda56b38ae5fd7548b7ff39015353d1c",
+     "tags": 10,
+     "unparsed": 2,
+     "version": "6.0",
+     "x0_tag": "6.0"
+    },
+    {
+     "branch": "stable/6.1.x",
+     "future": 1,
+     "notes": 209,
+     "sha": "8485c6ac386c6d41cf46001851c19360275c7cc9",
+     "tags": 3,
+     "unparsed": 2,
+     "version": "6.1",
+     "x0_tag": "6.1"
+    }
+   ],
+   "tags_listed": 32,
+   "tags_scanned": 32
+  },
+  "numpy": {
+   "future_count": 1,
+   "heads": [
+    {
+     "branch": "maintenance/1.24.x",
+     "future": 0,
+     "notes": 604,
+     "sha": "1ed0bfd3a42bf0c8a0060684645ba97941778006",
+     "tags": 5,
+     "unparsed": 0,
+     "version": "1.24",
+     "x0_tag": "v1.24.0"
+    },
+    {
+     "branch": "maintenance/1.25.x",
+     "future": 0,
+     "notes": 607,
+     "sha": "ea677928332c37e8052b4d599bf6ee52cf363cf9",
+     "tags": 3,
+     "unparsed": 0,
+     "version": "1.25",
+     "x0_tag": "v1.25.0"
+    },
+    {
+     "branch": "maintenance/1.26.x",
+     "future": 0,
+     "notes": 611,
+     "sha": "efcc645601bdce30e24ec58bf447d77a4a849619",
+     "tags": 6,
+     "unparsed": 1,
+     "version": "1.26",
+     "x0_tag": "v1.26.0"
+    },
+    {
+     "branch": "maintenance/2.0.x",
+     "future": 1,
+     "notes": 724,
+     "sha": "3b89059888c93f1950e1bc9b6d046af494e39afb",
+     "tags": 3,
+     "unparsed": 2,
+     "version": "2.0",
+     "x0_tag": "v2.0.0"
+    },
+    {
+     "branch": "maintenance/2.1.x",
+     "future": 0,
+     "notes": 732,
+     "sha": "f93a0553106048a4e6405f65abb5b4477f5bd203",
+     "tags": 4,
+     "unparsed": 2,
+     "version": "2.1",
+     "x0_tag": "v2.1.0"
+    },
+    {
+     "branch": "maintenance/2.2.x",
+     "future": 0,
+     "notes": 304,
+     "sha": "7bbd9659f4fdb0786ce408a4155cf6e6e6f8d308",
+     "tags": 7,
+     "unparsed": 2,
+     "version": "2.2",
+     "x0_tag": "v2.2.0"
+    },
+    {
+     "branch": "maintenance/2.3.x",
+     "future": 0,
+     "notes": 312,
+     "sha": "285ab2a655f993e51c3f55fd2ca9f92012a18322",
+     "tags": 6,
+     "unparsed": 2,
+     "version": "2.3",
+     "x0_tag": "v2.3.0"
+    },
+    {
+     "branch": "maintenance/2.4.x",
+     "future": 0,
+     "notes": 304,
+     "sha": "5fd68bc1f5ccd72b007c3ed12013acc405aaf11e",
+     "tags": 7,
+     "unparsed": 2,
+     "version": "2.4",
+     "x0_tag": "v2.4.0"
+    },
+    {
+     "branch": "maintenance/2.5.x",
+     "future": 0,
+     "notes": 313,
+     "sha": "d33c392aa0bcea3b1be929209b0f0cb9eb9b4dcb",
+     "tags": 5,
+     "unparsed": 2,
+     "version": "2.5",
+     "x0_tag": "v2.5.0"
+    }
+   ],
+   "tags_listed": 46,
+   "tags_scanned": 46
+  }
+ },
+ "seconds": 90.9
+}

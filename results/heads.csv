@@ -1,0 +1,13 @@
+project,branch,version,sha,notes,future,unparsed,tags,x0_tag
+django,stable/5.2.x,5.2,cbbcf85f89e66c2807c1c634a9ee8deaa5ca4c13,212,1,2,19,5.2
+django,stable/6.0.x,6.0,623c3706bda56b38ae5fd7548b7ff39015353d1c,198,0,2,10,6.0
+django,stable/6.1.x,6.1,8485c6ac386c6d41cf46001851c19360275c7cc9,209,1,2,3,6.1
+numpy,maintenance/1.24.x,1.24,1ed0bfd3a42bf0c8a0060684645ba97941778006,604,0,0,5,v1.24.0
+numpy,maintenance/1.25.x,1.25,ea677928332c37e8052b4d599bf6ee52cf363cf9,607,0,0,3,v1.25.0
+numpy,maintenance/1.26.x,1.26,efcc645601bdce30e24ec58bf447d77a4a849619,611,0,1,6,v1.26.0
+numpy,maintenance/2.0.x,2.0,3b89059888c93f1950e1bc9b6d046af494e39afb,724,1,2,3,v2.0.0
+numpy,maintenance/2.1.x,2.1,f93a0553106048a4e6405f65abb5b4477f5bd203,732,0,2,4,v2.1.0
+numpy,maintenance/2.2.x,2.2,7bbd9659f4fdb0786ce408a4155cf6e6e6f8d308,304,0,2,7,v2.2.0
+numpy,maintenance/2.3.x,2.3,285ab2a655f993e51c3f55fd2ca9f92012a18322,312,0,2,6,v2.3.0
+numpy,maintenance/2.4.x,2.4,5fd68bc1f5ccd72b007c3ed12013acc405aaf11e,304,0,2,7,v2.4.0
+numpy,maintenance/2.5.x,2.5,d33c392aa0bcea3b1be929209b0f0cb9eb9b4dcb,313,0,2,5,v2.5.0
